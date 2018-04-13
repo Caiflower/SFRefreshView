@@ -12,7 +12,10 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray * dataSource;
 @end
-
+typedef NS_ENUM(NSUInteger, SFRefreshType) {
+    SFRefreshTypeHeader,
+    SFRefreshTypeFooter
+};
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -24,29 +27,31 @@
     
     [self.tableView.refreshWrapper addHeaderRefreshWithHandler:^{
         
-        [self tableViewDidTriggerHeaderRefresh:YES];
+        [self tableViewDidTriggerRefreshType:SFRefreshTypeHeader];
     }];
     
     [self.tableView.refreshWrapper beginHeaderRefresh];
     
     [self.tableView.refreshWrapper addFooterRefreshWithhandler:^{
-        [self tableViewDidTriggerHeaderRefresh:NO];
+        [self tableViewDidTriggerRefreshType:SFRefreshTypeFooter];
     }];
     
 }
 
-- (void)tableViewDidTriggerHeaderRefresh:(BOOL)isHeader
+
+
+- (void)tableViewDidTriggerRefreshType:(SFRefreshType)refreshType
 {
     __weak typeof(self) weakself = self;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        if (isHeader) {
+        if (refreshType == SFRefreshTypeHeader) {
             [weakself.dataSource removeAllObjects];
         }
         for (NSInteger i = 0; i < 5; i++) {
             NSString * str = [NSString stringWithFormat:@"%zd",i];
             [weakself.dataSource addObject:str];
         }
-        if (isHeader) {
+        if (refreshType == SFRefreshTypeHeader) {
             [weakself.tableView.refreshWrapper resetNoMoreData];
             [weakself.tableView.refreshWrapper endHeaderRefresh];
         } else {
