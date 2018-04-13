@@ -15,6 +15,18 @@
 		FEB225242080A16700A836DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB225232080A16700A836DD /* main.m */; };
 		FEB2252E2080A16700A836DD /* SFRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2252D2080A16700A836DD /* SFRefreshViewTests.m */; };
 		FEB225392080A16700A836DD /* SFRefreshViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB225382080A16700A836DD /* SFRefreshViewUITests.m */; };
+		FEB2255D2080A23400A836DD /* SFRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB225482080A23400A836DD /* SFRefreshFooterView.m */; };
+		FEB2255E2080A23400A836DD /* UIScrollView+SFRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2254A2080A23400A836DD /* UIScrollView+SFRefresh.m */; };
+		FEB2255F2080A23400A836DD /* SFNormalFooterAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2254E2080A23400A836DD /* SFNormalFooterAnimator.m */; };
+		FEB225602080A23400A836DD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB225502080A23400A836DD /* UIColorExtension.swift */; };
+		FEB225612080A23400A836DD /* SFFastAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB225522080A23400A836DD /* SFFastAnimator.m */; };
+		FEB225622080A23400A836DD /* FastLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB225532080A23400A836DD /* FastLayer.swift */; };
+		FEB225632080A23400A836DD /* FastArrowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB225542080A23400A836DD /* FastArrowLayer.swift */; };
+		FEB225642080A23400A836DD /* FastCheckLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB225552080A23400A836DD /* FastCheckLayer.swift */; };
+		FEB225652080A23400A836DD /* FastCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB225562080A23400A836DD /* FastCircleLayer.swift */; };
+		FEB225662080A23400A836DD /* SFRefreshWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB225592080A23400A836DD /* SFRefreshWrapper.m */; };
+		FEB225672080A23400A836DD /* SFRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2255A2080A23400A836DD /* SFRefreshHeaderView.m */; };
+		FEB225682080A23400A836DD /* SFRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB2255B2080A23400A836DD /* SFRefreshComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,25 @@
 		FEB225342080A16700A836DD /* SFRefreshViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFRefreshViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB225382080A16700A836DD /* SFRefreshViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFRefreshViewUITests.m; sourceTree = "<group>"; };
 		FEB2253A2080A16700A836DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB225472080A23400A836DD /* SFRefreshWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRefreshWrapper.h; sourceTree = "<group>"; };
+		FEB225482080A23400A836DD /* SFRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRefreshFooterView.m; sourceTree = "<group>"; };
+		FEB225492080A23400A836DD /* SFRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRefreshHeaderView.h; sourceTree = "<group>"; };
+		FEB2254A2080A23400A836DD /* UIScrollView+SFRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SFRefresh.m"; sourceTree = "<group>"; };
+		FEB2254B2080A23400A836DD /* SFRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRefreshComponent.h; sourceTree = "<group>"; };
+		FEB2254E2080A23400A836DD /* SFNormalFooterAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNormalFooterAnimator.m; sourceTree = "<group>"; };
+		FEB2254F2080A23400A836DD /* SFNormalFooterAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNormalFooterAnimator.h; sourceTree = "<group>"; };
+		FEB225502080A23400A836DD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FEB225522080A23400A836DD /* SFFastAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFastAnimator.m; sourceTree = "<group>"; };
+		FEB225532080A23400A836DD /* FastLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastLayer.swift; sourceTree = "<group>"; };
+		FEB225542080A23400A836DD /* FastArrowLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastArrowLayer.swift; sourceTree = "<group>"; };
+		FEB225552080A23400A836DD /* FastCheckLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCheckLayer.swift; sourceTree = "<group>"; };
+		FEB225562080A23400A836DD /* FastCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastCircleLayer.swift; sourceTree = "<group>"; };
+		FEB225572080A23400A836DD /* SFFastAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFastAnimator.h; sourceTree = "<group>"; };
+		FEB225582080A23400A836DD /* SFRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFRefreshFooterView.h; sourceTree = "<group>"; };
+		FEB225592080A23400A836DD /* SFRefreshWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRefreshWrapper.m; sourceTree = "<group>"; };
+		FEB2255A2080A23400A836DD /* SFRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRefreshHeaderView.m; sourceTree = "<group>"; };
+		FEB2255B2080A23400A836DD /* SFRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFRefreshComponent.m; sourceTree = "<group>"; };
+		FEB2255C2080A23400A836DD /* UIScrollView+SFRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SFRefresh.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,7 @@
 		FEB225132080A16600A836DD /* SFRefreshView */ = {
 			isa = PBXGroup;
 			children = (
+				FEB225462080A23400A836DD /* SFRefresh */,
 				FEB225142080A16600A836DD /* AppDelegate.h */,
 				FEB225152080A16600A836DD /* AppDelegate.m */,
 				FEB225172080A16600A836DD /* ViewController.h */,
@@ -130,6 +162,56 @@
 				FEB2253A2080A16700A836DD /* Info.plist */,
 			);
 			path = SFRefreshViewUITests;
+			sourceTree = "<group>";
+		};
+		FEB225462080A23400A836DD /* SFRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				FEB225472080A23400A836DD /* SFRefreshWrapper.h */,
+				FEB225592080A23400A836DD /* SFRefreshWrapper.m */,
+				FEB2254B2080A23400A836DD /* SFRefreshComponent.h */,
+				FEB2255B2080A23400A836DD /* SFRefreshComponent.m */,
+				FEB225492080A23400A836DD /* SFRefreshHeaderView.h */,
+				FEB2255A2080A23400A836DD /* SFRefreshHeaderView.m */,
+				FEB225582080A23400A836DD /* SFRefreshFooterView.h */,
+				FEB225482080A23400A836DD /* SFRefreshFooterView.m */,
+				FEB2254A2080A23400A836DD /* UIScrollView+SFRefresh.m */,
+				FEB2254C2080A23400A836DD /* Animators */,
+				FEB2255C2080A23400A836DD /* UIScrollView+SFRefresh.h */,
+			);
+			path = SFRefresh;
+			sourceTree = "<group>";
+		};
+		FEB2254C2080A23400A836DD /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				FEB2254D2080A23400A836DD /* Footer */,
+				FEB225502080A23400A836DD /* UIColorExtension.swift */,
+				FEB225512080A23400A836DD /* Header */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		FEB2254D2080A23400A836DD /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				FEB2254E2080A23400A836DD /* SFNormalFooterAnimator.m */,
+				FEB2254F2080A23400A836DD /* SFNormalFooterAnimator.h */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		FEB225512080A23400A836DD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FEB225522080A23400A836DD /* SFFastAnimator.m */,
+				FEB225532080A23400A836DD /* FastLayer.swift */,
+				FEB225542080A23400A836DD /* FastArrowLayer.swift */,
+				FEB225552080A23400A836DD /* FastCheckLayer.swift */,
+				FEB225562080A23400A836DD /* FastCircleLayer.swift */,
+				FEB225572080A23400A836DD /* SFFastAnimator.h */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +344,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB2255E2080A23400A836DD /* UIScrollView+SFRefresh.m in Sources */,
+				FEB225632080A23400A836DD /* FastArrowLayer.swift in Sources */,
+				FEB225622080A23400A836DD /* FastLayer.swift in Sources */,
+				FEB225602080A23400A836DD /* UIColorExtension.swift in Sources */,
+				FEB2255F2080A23400A836DD /* SFNormalFooterAnimator.m in Sources */,
+				FEB225682080A23400A836DD /* SFRefreshComponent.m in Sources */,
 				FEB225192080A16600A836DD /* ViewController.m in Sources */,
+				FEB225642080A23400A836DD /* FastCheckLayer.swift in Sources */,
 				FEB225242080A16700A836DD /* main.m in Sources */,
+				FEB225612080A23400A836DD /* SFFastAnimator.m in Sources */,
+				FEB225662080A23400A836DD /* SFRefreshWrapper.m in Sources */,
+				FEB225672080A23400A836DD /* SFRefreshHeaderView.m in Sources */,
+				FEB225652080A23400A836DD /* FastCircleLayer.swift in Sources */,
+				FEB2255D2080A23400A836DD /* SFRefreshFooterView.m in Sources */,
 				FEB225162080A16600A836DD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Coder.flower.SFRefreshView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,6 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Coder.flower.SFRefreshView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,6 +562,7 @@
 		FEB225412080A16700A836DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XERJB6TQW;
@@ -485,6 +582,7 @@
 		FEB225422080A16700A836DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XERJB6TQW;
@@ -504,6 +602,7 @@
 		FEB225442080A16700A836DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XERJB6TQW;
 				INFOPLIST_FILE = SFRefreshViewUITests/Info.plist;
@@ -522,6 +621,7 @@
 		FEB225452080A16700A836DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5XERJB6TQW;
 				INFOPLIST_FILE = SFRefreshViewUITests/Info.plist;
